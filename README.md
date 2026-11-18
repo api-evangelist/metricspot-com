@@ -1,4 +1,4 @@
-# metricspot-com
+# MetricSpot
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-metricspot-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://metricspot.com/
+MetricSpot provides SEO and AI‑readability audit services, offering white‑label PDF reports for agencies and freelancers. The platform evaluates websites across ten lenses, including technical SEO, content quality, accessibility, and AI‑readability, delivering results in seconds. It also features tools for white‑label SEO, AI search visibility, competitor comparison, and integrations with Google Analytics 4 and Search Console.
+
+**Areas:** SEO · AI‑readability · Digital marketing agencies · Freelancers · In‑house teams · Resellers · Audit tool
+
+## MetricSpot on APIs.io
+
+Everything profiled for MetricSpot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/metricspot-com/](https://apis.io/providers/metricspot-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [MetricSpot Audits API](https://apis.io/apis/metricspot-com/metricspot-com-audits-api/) — Create, list, fetch, and manage SEO audits.
+- [MetricSpot Pdfs API](https://apis.io/apis/metricspot-com/metricspot-com-pdfs-api/) — Generate, poll, and download white-label PDF reports.
+- [MetricSpot Public API](https://apis.io/apis/metricspot-com/metricspot-com-public-api/) — Anonymous endpoints with IP-based rate limits. No auth.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MetricSpot Agentic Access](https://apis.io/agentic-access/metricspot-com/metricspot-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnonymousAuditResponse](https://apis.io/schemas/metricspot-com/metricspot-com-anonymous-audit-response/)
+- [AuditDetail](https://apis.io/schemas/metricspot-com/metricspot-com-audit-detail/)
+- [AuditQueued](https://apis.io/schemas/metricspot-com/metricspot-com-audit-queued/)
+- [AuditSummary](https://apis.io/schemas/metricspot-com/metricspot-com-audit-summary/)
+- [PdfStatus](https://apis.io/schemas/metricspot-com/metricspot-com-pdf-status/)
+- [UsageSnapshot](https://apis.io/schemas/metricspot-com/metricspot-com-usage-snapshot/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Metricspot Com Context](https://apis.io/jsonld/metricspot-com/metricspot-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MetricSpot API Rules](https://apis.io/rules/metricspot-com/metricspot-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MetricSpot Authentication](https://apis.io/security/metricspot-com/metricspot-com-authentication/)
+- [MetricSpot Domain Security](https://apis.io/security/metricspot-com/metricspot-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MetricSpot Plans Pricing](https://apis.io/plans/metricspot-com/metricspot-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://metricspot.com/)
+- [Documentation](https://metricspot.com/docs/)
+- [Getting started](https://metricspot.com/docs/mcp-quickstart)
+- [API reference](https://metricspot.com/features/seo-api/reference/)
+- [Pricing](https://metricspot.com/pricing/)
+- [Changelog](https://metricspot.com/changelog/)
+- [Blog](https://metricspot.com/blog/)
+- [Terms of service](https://metricspot.com/terms/)
+- [Privacy policy](https://metricspot.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 54.5** — strong · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 65.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 48.5 |
+
+**Agent readiness 43.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/metricspot-com/](https://apis.io/providers/metricspot-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MetricSpot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/metricspot-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
